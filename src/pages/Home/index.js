@@ -1,5 +1,6 @@
 import BannerHome from "../../components/BannerHome";
 import Carrossel from "../../components/Carrossel";
+import Category from "../../components/Category";
 
 
 
@@ -13,6 +14,7 @@ const Home = () => {
     <>
     <BannerHome />
       <Carrossel />
+      <Category />
     </>
   );
 };
