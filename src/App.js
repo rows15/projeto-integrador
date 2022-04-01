@@ -1,16 +1,13 @@
-// import Paginas from './routes';
-//import "./styles.css";
+ import Paginas from './routes';
+import "./App.scss";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-
-//function App() {
-//  return (
-//    <>
-/*      <Paginas />
-     
+const App = () => {
+  return (
+    <>
+      <Paginas />
     </>
   );
 }
-
-export default App; 
-*/
+export default App;

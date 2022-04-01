@@ -1,0 +1,63 @@
+#bannerHome {
+  width: 97.5%;
+  min-height: 70vh;
+  background-image: url("../../assets/home/banner.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#bannerHome .text {
+  text-align: center;
+  width: 45%;
+}
+
+#bannerHome .text h2 {
+  color: var(--brown-dark);
+  padding: 15% 0 0 15%;
+}
+
+#bannerHome .text h4 {
+  color: var(--green-dark);
+  padding: 5% 0 0 15%;
+}
+
+@media (min-width: 1200px) {
+  #bannerHome {
+    min-width: 1200px;
+  }
+  #bannerHome .text {
+    text-align: center;
+    width: 45%;
+  }
+  #bannerHome .text h2 {
+    padding: 20% 0 0 10%;
+    font-size: 5rem;
+  }
+  #bannerHome .text h4 {
+    padding: 5% 0 0 10%;
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-height: 625px) {
+  #bannerHome {
+    min-height: 616px;
+  }
+  #bannerHome .text {
+    text-align: center;
+    width: 45%;
+  }
+  #bannerHome .text h2 {
+    padding: 20% 0 0 10%;
+    font-size: 5rem;
+  }
+  #bannerHome .text h4 {
+    padding: 3% 0 0 10%;
+    font-size: 2.5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

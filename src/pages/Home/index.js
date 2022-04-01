@@ -1,9 +1,20 @@
-import "./styles.css";
+import BannerHome from "../../components/BannerHome";
+import Carrossel from "../../components/Carrossel";
 
-export default function Home() {
-    return (
-        <div>
-            <h1>hello world home</h1>
-        </div>
-    )
-}
+
+
+
+
+const Home = () => {
+ 
+
+ 
+  return (
+    <>
+    <BannerHome />
+      <Carrossel />
+    </>
+  );
+};
+
+export default Home;

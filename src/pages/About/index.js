@@ -1,9 +1,9 @@
-import "./styles.css";
+import "./style.scss";
 
 export default function About() {
     return (
         <div>
-            <h1>hello world</h1>
+            <h1>About-pages</h1>
         </div>
    )
 }
