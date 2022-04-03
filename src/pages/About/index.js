@@ -1,10 +1,16 @@
-import "./style.scss";
+import BannerHome   from '../../components/AboutUs/BannerAbout';
+import AboutUs from '../../components/AboutUs';
 
-export default function About() {
+
+const About = () => {
     return (
-        <div>
-            <h1>About-pages</h1>
-        </div>
-   )
-}
-
+      <>
+        <title>Sobre nós</title>
+        <BannerHome />
+        <AboutUs />
+        
+      </>
+    );
+  }
+  export default About;
+  

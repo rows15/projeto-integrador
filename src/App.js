@@ -1,6 +1,6 @@
  import Paginas from './routes';
-import "./App.scss";
-import 'bootstrap/dist/css/bootstrap.min.css';
+ import "./App.scss";
+ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const App = () => {
