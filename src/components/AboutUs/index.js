@@ -32,8 +32,8 @@ const AboutUs = () => {
                             <div className=" retangle">
                                 <div className="col-lg-6 col-xm-12 aboutme ">
                                     <h4 className="profile-name">Mateus Dias</h4>
-                                    <h5 className="profile-social"><a href="https://www.linkedin.com/in/alinepollisbeck/" target="_blank" rel="noopener noreferrer">LinkedIn</a></h5>
-                                    <h5 className="profile-social"><a href="http://github.com/lipollis" target="_blank" rel="noopener noreferrer">GitHub</a></h5>
+                                    <h5 className="profile-social"><a href="https://www.linkedin.com/in/mateus-benites-dias/" target="_blank" rel="noopener noreferrer">LinkedIn</a></h5>
+                                    <h5 className="profile-social"><a href="https://github.com/mateusbdias" target="_blank" rel="noopener noreferrer">GitHub</a></h5>
                                 </div>
                             </div>
                         </div>
@@ -49,8 +49,8 @@ const AboutUs = () => {
                             <div className=" retangle">
                                 <div className="col-lg-6 col-xm-12 aboutme">
                                     <h4 className="profile-name">Marcelo</h4>
-                                    <h5 className="profile-social"><a href=" https://www.linkedin.com/in/esther-maria-pimentel-porto-4b351a74/" target="_blank" rel="noopener noreferrer">LinkedIn</a></h5>
-                                    <h5 className="profile-social"><a href="https://github.com/EstherPimentel" target="_blank" rel="noopener noreferrer">GitHub</a></h5>
+                                    <h5 className="profile-social"><a href=" https://www.linkedin.com/in/mateus-benites-dias/" target="_blank" rel="noopener noreferrer">LinkedIn</a></h5>
+                                    <h5 className="profile-social"><a href="https://github.com/rows15" target="_blank" rel="noopener noreferrer">GitHub</a></h5>
                                 </div>
                             </div>
                         </div>
@@ -66,8 +66,8 @@ const AboutUs = () => {
                             <div className=" retangle">
                                 <div className="col-lg-6 col-xm-12 aboutme">
                                     <h4 className="profile-name">Wesley Bueno</h4>
-                                    <h5 className="profile-social"><a href="https://www.linkedin.com/in/gisellepiasetzki/" target="_blank" rel="noopener noreferrer">LinkedIn</a></h5>
-                                    <h5 className="profile-social"><a href="https://github.com/GisellePiasetzki" target="_blank" rel="noopener noreferrer">GitHub</a></h5>
+                                    <h5 className="profile-social"><a href="https://www.linkedin.com/in/wesley-bueno-4863b6163/" target="_blank" rel="noopener noreferrer">LinkedIn</a></h5>
+                                    <h5 className="profile-social"><a href="https://github.com/BuenoDark" target="_blank" rel="noopener noreferrer">GitHub</a></h5>
                                 </div>
                             </div>
                         </div>
@@ -99,9 +99,9 @@ const AboutUs = () => {
                             </div>
                             <div className=" retangle">
                                 <div className="col-lg-6 col-xm-12 aboutme">
-                                    <h4 className="profile-name">Francielle</h4>
-                                    <h5 className="profile-social"><a href="https://www.linkedin.com/in/silas-medeiros-6b44a0213/" target="_blank" rel="noopener noreferrer">LinkedIn</a></h5>
-                                    <h5 className="profile-social"><a href="https://github.com/silasms" target="_blank" rel="noopener noreferrer">GitHub</a></h5>
+                                    <h4 className="profile-name">Francielle Celeghim</h4>
+                                    <h5 className="profile-social"><a href="https://www.linkedin.com/in/francieli-celeghim-30477a139/" target="_blank" rel="noopener noreferrer">LinkedIn</a></h5>
+                                    <h5 className="profile-social"><a href="https://github.com/Francieli-Celeghim" target="_blank" rel="noopener noreferrer">GitHub</a></h5>
                                 </div>
                             </div>
                         </div>
@@ -117,8 +117,8 @@ const AboutUs = () => {
                             <div className=" retangle">
                                 <div className="col-lg-6 col-xm-12 aboutme">
                                     <h4 className="profile-name">Katherine Duarte</h4>
-                                    <h5 className="profile-social"><a href="https://www.linkedin.com/in/thaysgama/" target="_blank" rel="noopener noreferrer">LinkedIn</a></h5>
-                                    <h5 className="profile-social"><a href="https://github.com/thaysgama" target="_blank" rel="noopener noreferrer">GitHub</a></h5>
+                                    <h5 className="profile-social"><a href="https://www.linkedin.com/in/katherine-mariete-lopez-duarte/" target="_blank" rel="noopener noreferrer">LinkedIn</a></h5>
+                                    <h5 className="profile-social"><a href="https://github.com/katamarieth" target="_blank" rel="noopener noreferrer">GitHub</a></h5>
                                 </div>
                             </div>
                         </div>

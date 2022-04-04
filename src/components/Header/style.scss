@@ -1,5 +1,5 @@
 #header{
-    background-color: rgb(61, 23, 105) !important;
+    background-color: var(--regal-blue) !important;
     z-index: 2;
    #home{
        display:flex;
@@ -27,10 +27,10 @@
        //background-color: blue;
         padding:5px 15px;
         border-radius: 5px;
-        color: white;
+        color: var( --cloudy);
         &:hover{
             color: black;
-            background-color: #E9ECEF;
+            background-color: var(--bg-2);
         }
 
         
