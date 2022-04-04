@@ -35,7 +35,7 @@ const Footer = () => {
                     
 
                 </Card.Body>
-                <Card.Footer className="text-center"> desenvolvido por grupo4  {generateDateString()} - CDT</Card.Footer>
+                <Card.Footer className="text-center"> desenvolvido por: group4  {generateDateString()} - CDT</Card.Footer>
             </Card>
 
         </footer>

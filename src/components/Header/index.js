@@ -1,6 +1,7 @@
 
 import { Nav, NavDropdown, Container, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import CartIcon from "./CartIcon";
 import logodeuno from '../../assets/logodeuno.png';
 import "./style.scss";
 const Header = () => {
@@ -14,7 +15,7 @@ const Header = () => {
                         <a href="/">                        
                             <img src={logodeuno} alt="" width={60}/>
                         </a>
-                        </Navbar.Brand>                    
+                    </Navbar.Brand> 
                     <Navbar.Collapse className="menu">
                         <Nav className="items">
                             <Nav.Link as={Link} to={"/"}>
@@ -44,9 +45,9 @@ const Header = () => {
                             <Nav.Link style={{ whiteSpace: "nowrap" }} as={Link} to={"/sobreNos"}>
                                 Sobre nós
                             </Nav.Link>
-                            <Nav.Link href="#footer">GitHub</Nav.Link>
+                            <Nav.Link href="#footer">Central de Atendimento</Nav.Link>
                             <Nav.Link className="car" as={Link} to={"/carrinho"}>
-                                
+                            <CartIcon /> 
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>    

@@ -5,7 +5,7 @@ import Mateus    from "../../assets/aboutUs/Mateus.jpg";
 import Marcelo   from "../../assets/aboutUs/Marcelo.png";
 import Wesley  from "../../assets/aboutUs/Wesley.jpg";
 import Leticia  from "../../assets/aboutUs/Leticia.jpg";
-import Francielle    from "../../assets/aboutUs/Francieli.jpg";
+import Francieli    from "../../assets/aboutUs/Francieli.jpg";
 import Katherine    from "../../assets/aboutUs/Katherine.jpg";
 
 const AboutUs = () => {
@@ -16,12 +16,12 @@ const AboutUs = () => {
         <section id="aboutUs" >
 
             <div className="text-about">
-                <p>Grupo do checkpoint integrador CTD </p>
+                <p>Grupo 4 do checkpoint integrador CTD </p>
             </div>
 
 
                 <div className="cards">
-                    {/* MATEUS */}
+                    
                     <articles >
                         <div className="caixa caixa-1">
                             <div className="image-container-about col-lg-6 col-xm-12">
@@ -38,7 +38,7 @@ const AboutUs = () => {
                             </div>
                         </div>
                     </articles>
-                    {/* MARCELO  */}
+                    
                     <articles >
                         <div className="caixa caixa-2">
                             <div className="image-container-about col-lg-6 col-xm-12">
@@ -72,7 +72,7 @@ const AboutUs = () => {
                             </div>
                         </div>
                     </articles>
-                    {/* LETÍCIA CARMO */}
+                    
                     <articles >
                         <div className="caixa caixa-4">
                             <div className="image-container-about col-lg-6 col-xm-12">
@@ -89,12 +89,12 @@ const AboutUs = () => {
                             </div>
                         </div>
                     </articles>
-                    {/* FRANCIELLE */}
+                   
                     <articles >
                         <div className="caixa caixa-5">
                             <div className="image-container-about col-lg-6 col-xm-12">
                                 <div className="photo-wrap mb-5">
-                                    <img className="profile-img" src={Francielle} alt="Foto Francielle." />
+                                    <img className="profile-img" src={Francieli} alt="Foto Francielle." />
                                 </div>
                             </div>
                             <div className=" retangle">
@@ -106,7 +106,7 @@ const AboutUs = () => {
                             </div>
                         </div>
                     </articles>
-                    {/* KATHERINE */}
+                   
                     <articles >
                         <div className="caixa caixa-6">
                             <div className="image-container-about col-lg-6 col-xm-12">
