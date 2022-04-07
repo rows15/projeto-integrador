@@ -27,19 +27,19 @@ const Header = () => {
                             </Nav.Link>
                             <NavDropdown title="Categorias" className="basic-nav-dropdown">
                                 <NavDropdown.Item as={Link} to={"/categoria/eletronicos"} >
-                                Eletronicos (api)
+                                Celular & Smartphone (api)
                                 </NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to={"/categoria/eletrodomesticos"}>
-                                Eletrodomesticos
+                                TV
                                 </NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to={"/categoria/ferramentas"}>
-                                Ferramentas
+                                Tablets, iPads e E-readers
                                 </NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to={"/categoria/construcao"}>
-                                Construção
+                                Eletrodomésticos
                                 </NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to={"/categoria/moveis"}>
-                                Moveis
+                                Computadores
                                 </NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link style={{ whiteSpace: "nowrap" }} as={Link} to={"/sobreNos"}>

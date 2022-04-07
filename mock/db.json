@@ -1,0 +1,125 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "tv",
+      "price": 10.5,
+      "category_id": 4,
+      "description": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, salada e batata.",
+      "image": "https://a-static.mlcdn.com.br/618x463/bolsa-feminina-dhaffy-bege-divisorias-alca-de-mao-e-transversal-dhaffy-bolsas/dhaffybolsas/5703861364/1a5bdaa8a82b22de3dc2468583981810.jpg"      
+    },
+    {
+      "id": 2,
+      "title": "Celular",
+      "price": 10.5,
+      "category_id": 1,
+      "description": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, salada e batata.",
+      "image": "https://a-static.mlcdn.com.br/618x463/bolsa-feminina-dhaffy-bege-divisorias-alca-de-mao-e-transversal-dhaffy-bolsas/dhaffybolsas/5703861364/1a5bdaa8a82b22de3dc2468583981810.jpg"      
+    
+    },
+    {
+      "id": 3,
+      "title": "Notebook",
+      "price": 10.5,
+      "category_id": 3,
+      "description": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, salada e batata.",
+      "image": "https://a-static.mlcdn.com.br/618x463/bolsa-feminina-dhaffy-bege-divisorias-alca-de-mao-e-transversal-dhaffy-bolsas/dhaffybolsas/5703861364/1a5bdaa8a82b22de3dc2468583981810.jpg"      
+    
+    },
+    {
+      "id": 4,
+      "title": "tv Lg",
+      "price": 10.5,
+      "category_id": 1,
+      "description": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, salada e batata.",
+      "image": "https://a-static.mlcdn.com.br/618x463/bolsa-feminina-dhaffy-bege-divisorias-alca-de-mao-e-transversal-dhaffy-bolsas/dhaffybolsas/5703861364/1a5bdaa8a82b22de3dc2468583981810.jpg"      
+    
+    },
+    {
+      "id": 5,
+      "title": "Notebook Acer",
+      "price": 10.5,
+      "category_id": 5,
+      "description": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, salada e batata.",
+      "image": "https://a-static.mlcdn.com.br/618x463/bolsa-feminina-dhaffy-bege-divisorias-alca-de-mao-e-transversal-dhaffy-bolsas/dhaffybolsas/5703861364/1a5bdaa8a82b22de3dc2468583981810.jpg"      
+    
+    },
+    {
+      "id": 6,
+      "title": "Monitor",
+      "price": 10.5,
+      "category_id": 3,
+      "description": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, salada e batata.",
+      "image": "https://a-static.mlcdn.com.br/618x463/bolsa-feminina-dhaffy-bege-divisorias-alca-de-mao-e-transversal-dhaffy-bolsas/dhaffybolsas/5703861364/1a5bdaa8a82b22de3dc2468583981810.jpg"      
+    
+    },
+    {
+      "id": 7,
+      "title": "Pc Gamer",
+      "price": 10.5,
+      "category_id": 1,
+      "description": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, salada e batata.",
+      "image": "https://a-static.mlcdn.com.br/618x463/bolsa-feminina-dhaffy-bege-divisorias-alca-de-mao-e-transversal-dhaffy-bolsas/dhaffybolsas/5703861364/1a5bdaa8a82b22de3dc2468583981810.jpg"      
+    
+    },
+    {
+      "id": 8,
+      "title": "tv",
+      "price": 10.5,
+      "category_id": 5,
+      "description": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, salada e batata.",
+      "image": "https://a-static.mlcdn.com.br/618x463/bolsa-feminina-dhaffy-bege-divisorias-alca-de-mao-e-transversal-dhaffy-bolsas/dhaffybolsas/5703861364/1a5bdaa8a82b22de3dc2468583981810.jpg"      
+    
+    },
+    {
+      "id": 9,
+      "title": "tv",
+      "price": 10.5,
+      "category_id": 4,
+      "description": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, salada e batata.",
+      "image": "https://a-static.mlcdn.com.br/618x463/bolsa-feminina-dhaffy-bege-divisorias-alca-de-mao-e-transversal-dhaffy-bolsas/dhaffybolsas/5703861364/1a5bdaa8a82b22de3dc2468583981810.jpg"      
+    
+    },
+    {
+      "id": 10,
+      "title": "tv",
+      "price": 10.5,
+      "category_id": 3,
+      "description": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, salada e batata.",
+      "image": "https://a-static.mlcdn.com.br/618x463/bolsa-feminina-dhaffy-bege-divisorias-alca-de-mao-e-transversal-dhaffy-bolsas/dhaffybolsas/5703861364/1a5bdaa8a82b22de3dc2468583981810.jpg"      
+    
+    },
+    {
+      "nome": "Hamburge de frango",
+      "descricao": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, salada e batata.",
+      "preco": 10.5,
+      "categoria_id": 2,
+      "id": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "nome": "Celular & Smartphone"
+    },
+    {
+      "id": 2,
+      "nome": "TV"
+    },
+    {
+      "id": 3,
+      "nome": "Tablets, iPads e E-readers"
+
+    },
+    {
+      "id": 4,
+      "nome": "Eletrodomésticos"
+
+    },
+    {
+      "id": 5,
+      "nome": "Computadores"
+
+    }
+  ]
+}
