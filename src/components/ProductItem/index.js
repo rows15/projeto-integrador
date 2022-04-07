@@ -3,7 +3,7 @@ import './style.scss'
 
 const ProductItem = () => {
     return (
-        <h1>Hello</h1>
+        <h1>Todos os produtos</h1>
         
     );
            

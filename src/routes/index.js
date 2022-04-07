@@ -5,6 +5,7 @@ import About from '../pages/About';
 import Products from '../pages/Products';
 import Adm from '../pages/Adm';
 import Footer from '../components/Footer';
+import NotFound from '../pages/NotFound';
 
 
 
@@ -16,7 +17,8 @@ const Paginas = () => {
         <Route path="/" element={<Home />} />
         <Route path="/sobrenos" element ={<About />} />
         <Route path="/produtos" element={<Products />} />
-        <Route path="/administracao" element ={<Adm />} />
+        <Route path="/administracao" element={<Adm />} />
+        <Route path="*" element={<NotFound />} />
                            
       </Routes>
       <Footer/>
