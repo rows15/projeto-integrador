@@ -27,7 +27,7 @@ const Header = () => {
                             </Nav.Link>
                             <NavDropdown title="Categorias" className="basic-nav-dropdown">
                                 <NavDropdown.Item as={Link} to={"/categoria/eletronicos"} >
-                                Eletronicos
+                                Eletronicos (api)
                                 </NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to={"/categoria/eletrodomesticos"}>
                                 Eletrodomesticos
@@ -45,7 +45,9 @@ const Header = () => {
                             <Nav.Link style={{ whiteSpace: "nowrap" }} as={Link} to={"/sobreNos"}>
                                 Sobre nós
                             </Nav.Link>
-                            <Nav.Link href="#footer">Central de Atendimento</Nav.Link>
+                            <Nav.Link as={Link} to={"/administracao"}>
+                            Administração
+                            </Nav.Link>
                             <Nav.Link className="car" as={Link} to={"/carrinho"}>
                             <CartIcon /> 
                             </Nav.Link>
