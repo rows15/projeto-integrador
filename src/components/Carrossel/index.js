@@ -41,6 +41,16 @@ const Carrossel = () => {
       id: 7,
       imageUrl: "https://s3.static.brasilescola.uol.com.br/be/2020/12/partes-da-flor.jpg",
       title: "Flor 7"
+    },
+    {
+      id: 8,
+      imageUrl: "https://s3.static.brasilescola.uol.com.br/be/2020/12/partes-da-flor.jpg",
+      title: "Flor 8"
+    },
+    {
+      id: 9,
+      imageUrl: "https://s3.static.brasilescola.uol.com.br/be/2020/12/partes-da-flor.jpg",
+      title: "Flor 9"
     }
   ];
 
@@ -65,7 +75,7 @@ const Carrossel = () => {
   return (
     
     <section id="carrossel">
-      <h2>Produtos em destaque:</h2>
+      <h2>Categorias populares</h2>
      
       <Carousel variant="dark" id= "destaques">
         {dataBatchs.map((dataBatch, index) => {

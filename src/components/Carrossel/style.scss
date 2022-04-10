@@ -1,6 +1,11 @@
-#carrossel h2{
+#carrossel {
+    background-color: rgb(224, 241, 250);
+}
+
+#carrossel h2 {
     padding: 5% 5% 5% 7%;
     color: var(--green-medium);
+    text-align: center;
 }
 
 #destaques {
