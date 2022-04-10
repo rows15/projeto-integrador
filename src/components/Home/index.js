@@ -6,8 +6,8 @@ const Home = () => {
     return (
         <>
         <BannerHome />
-            <Carrossel />
-            </>
+        <Carrossel />
+        </>
 
     );
 };
