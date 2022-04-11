@@ -1,62 +1,75 @@
-
+/* eslint-disable no-unused-vars */
+import React, {useEffect,  useState } from 'react'
 import { Nav, NavDropdown, Container, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import CartIcon from "./CartIcon";
+import CategoryItem from "../CategoryItem"
 import logodeuno from '../../assets/logodeuno.png';
+import api from '../../services/api';
 import "./style.scss";
-const Header = () => {
-    return (
 
-  
-      <section id="header">
+export default function Header  ()  {
+    const [categories, setCategories] = useState([]);
+    useEffect(() => {
+        callCategories();
+    }, []);
+
+   
+    async function callCategories() {
+        try {
+          const response = await api.get("/categories");
+            setCategories(response.data);
+           
+         }
+        catch (error) { 
+    
+        }
+      } 
+    
+    
+
+    return (
+        <section id="header">
             <Navbar expand="lg">
                 <Container id="home">
                     <Navbar.Brand className="nav-brand">
-                        <a href="/">                        
-                            <img src={logodeuno} alt="" width={60}/>
+                        <a href="/">
+                            <img src={logodeuno} alt="" width={60} />
                         </a>
-                    </Navbar.Brand> 
+                    </Navbar.Brand>
                     <Navbar.Collapse className="menu">
                         <Nav className="items">
                             <Nav.Link as={Link} to={"/"}>
-                            Home
-                            </Nav.Link> 
-
+                                Home
+                            </Nav.Link>
                             <Nav.Link as={Link} to={"/produtos"}>
-                            Produtos
+                                Produtos
                             </Nav.Link>
                             <NavDropdown title="Categorias" className="basic-nav-dropdown">
-                                <NavDropdown.Item as={Link} to={"/categoria/eletronicos"} >
-                                Celular & Smartphone (api)
-                                </NavDropdown.Item>
-                                <NavDropdown.Item as={Link} to={"/categoria/eletrodomesticos"}>
-                                TV
-                                </NavDropdown.Item>
-                                <NavDropdown.Item as={Link} to={"/categoria/ferramentas"}>
-                                Tablets, iPads e E-readers
-                                </NavDropdown.Item>
-                                <NavDropdown.Item as={Link} to={"/categoria/construcao"}>
-                                Eletrodomésticos
-                                </NavDropdown.Item>
-                                <NavDropdown.Item as={Link} to={"/categoria/moveis"}>
-                                Computadores
+                                <NavDropdown.Item as={Link} to={"/categoria/"}>
+                                    <ul>
+                                        {categories.map((item) => (
+                                            <li style={{listStyle: "none"}}>
+                                               < CategoryItem key={item.id} prmProduct={item}/> 
+                                            </li>
+                                        ))}
+                                    </ul>
                                 </NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link style={{ whiteSpace: "nowrap" }} as={Link} to={"/sobreNos"}>
                                 Sobre nós
                             </Nav.Link>
                             <Nav.Link as={Link} to={"/administracao"}>
-                            Administração
+                                Administração
                             </Nav.Link>
                             <Nav.Link className="car" as={Link} to={"/carrinho"}>
-                            <CartIcon /> 
+                                <CartIcon />
                             </Nav.Link>
                         </Nav>
-                    </Navbar.Collapse>    
+                    </Navbar.Collapse>
                 </Container>
             </Navbar>
         </section>
     );
 };
 
-export default Header;
