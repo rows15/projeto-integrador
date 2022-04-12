@@ -62,7 +62,7 @@
       "price": 10.5,
       "category_id": 2,
       "description": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, salada e batata.",
-      "image": ""
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51oNweG3tiL.__AC_SX300_SY300_QL70_ML2_.jpg"
     },
     {
       "id": 9,
@@ -205,7 +205,7 @@
       "image": "https://m.media-amazon.com/images/I/51b0fG74oYL._AC_SX522_.jpg"
     }
   ],
-  "productsCategories": [
+  "productsCategory": [
     {
       "id": 1,
       "name": "Celular & Smartphone",
@@ -217,24 +217,27 @@
     },
     {
       "id": 2,
-      "name": "TV"
+      "title": "Pc Gamer A",
+      "price": 10.5,
+      "category_id": 1,
+      "description": "AAA Pão, bife de hambúrguer 90g, 1 fatia de queijo, salada e batata.",
+      "image": "https://m.media-amazon.com/images/I/31nt4iiUdlL._AC_UL480_FMwebp_QL65_.jpg"
     },
     {
-      "id": 3,
-      "name": "Tablets, iPads e E-readers"
+      "id":3,
+      "title": "Pc Gamer B",
+      "price": 10.5,
+      "category_id": 1,
+      "description": "BBB Pão, bife de hambúrguer 90g, 1 fatia de queijo, salada e batata.",
+      "image": "https://m.media-amazon.com/images/I/31nt4iiUdlL._AC_UL480_FMwebp_QL65_.jpg"
     },
     {
-      "id": 4,
-      "name": "Eletrodomésticos"
-    },
-    {
-      "id": 5,
-      "name": "Computadores"
-    },
-    {
-      "id": 6,
-      "name": "Teclados"
+      "id":4,
+      "title": "Pc Gamer C",
+      "price": 10.5,
+      "category_id": 1,
+      "description": "CCC Pão, bife de hambúrguer 90g, 1 fatia de queijo, salada e batata.",
+      "image": "https://m.media-amazon.com/images/I/31nt4iiUdlL._AC_UL480_FMwebp_QL65_.jpg"
     }
   ]
-
 }

@@ -19,7 +19,7 @@ export default function Details() {
     async function callApiDetails() {
         
         try {
-          const response = await api.get(`/productDetails/${parametro.id}`);
+          const response = await api.get(`/products/${parametro.id}`);
             setProduct(response.data);
         
         }
