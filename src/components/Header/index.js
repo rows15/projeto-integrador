@@ -16,13 +16,15 @@ export default function Header  ()  {
 
    
     async function callCategories() {
+        
         try {
           const response = await api.get("/categories");
             setCategories(response.data);
-           
+            console.log(response.data);
          }
         catch (error) { 
-    
+            console.log(error);
+            
         }
       } 
     
@@ -50,7 +52,7 @@ export default function Header  ()  {
                                     <ul>
                                         {categories.map((item) => (
                                             <li style={{listStyle: "none"}}>
-                                               < CategoryItem key={item.id} prmProduct={item}/> 
+                                               < CategoryItem key={item.id} prmCategory={item}/> 
                                             </li>
                                         ))}
                                     </ul>

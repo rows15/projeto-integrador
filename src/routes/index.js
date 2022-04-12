@@ -4,7 +4,7 @@ import Home from '../pages/Home';
 import About from '../pages/About';
 import Products from '../pages/Products';
 import Details from '../pages/Details';
-import ProductsCategories from '../pages/ProductsCategories'
+import ProductsCategory from '../pages/ProductsCategory'
 import Adm from '../pages/Adm';
 import Footer from '../components/Footer';
 import NotFound from '../pages/NotFound';
@@ -12,23 +12,22 @@ import NotFound from '../pages/NotFound';
 
 
 const Paginas = () => {
-  return(
-       <BrowserRouter>        
-          <Header />
-            <Routes>
+  return (
+    <BrowserRouter>
+      <Header />
+      <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/sobrenos" element ={<About />} />
+        <Route path="/sobrenos" element={<About />} />
         <Route path="/produtos" element={<Products />} />
         <Route path="/detalhes/:id" element={<Details />} />
-        <Route path="/produtosporcategoria/:id" element={<ProductsCategories />} />
+        <Route path="/categorias/:id" element={<ProductsCategory />} />
         <Route path="/administracao" element={<Adm />} />
         <Route path="*" element={<NotFound />} />
-                           
       </Routes>
-      <Footer/>
-       </BrowserRouter>
-   )
-    
+      <Footer />
+    </BrowserRouter>
+  )
+
 };
 
 export default Paginas;
