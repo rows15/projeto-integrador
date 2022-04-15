@@ -28,12 +28,16 @@ export default function ProductsCategory() {
   }
   return (
     <>
+      <body>
       <h1>Produtos da categoria</h1>
       <ul style={{ listStyle: "none" }}>
+        <li>
         {product.map((item) => (
           <ProductItem key={item.id} prmProduct={item} />
         ))}
-      </ul>
+          </li>
+        </ul>
+        </body>
     </>
   );
 }

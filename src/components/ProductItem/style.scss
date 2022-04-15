@@ -1,7 +1,5 @@
-.product{
-    .buttons{
-        position: absolute;
-        bottom: 15px;
-        right: 15px;
-    }
+.cart-container{
+    border: solid 1px var(--brown-light);
+    border-radius: 2rem;
+    color: var(--green-medium);
 }

@@ -22,12 +22,18 @@ export default function Products() {
 
   return (
     <>
-      <h1>Todos os produtos</h1>
-      <ul style={{listStyle: "none"}}>
-        {products.map((item) => (
-          <ProductItem key={item.id} prmProduct={item} />
-        ))}
-      </ul>
+      <body style={{textDecoration:"none",background:"#e5e5e5",padding: "0 20px"  }}>
+        <h1 style={{ fontSize: "50px", color:"black"  }}>Todos os produtos</h1>
+          <ul style={{display: "flex",alignItems: "center"}}>
+            <li className="item-list-products" style={{display: "flex",flexWrap: "wrap",justifyContent: "center"}}>
+            {products.map((item) => (
+            <ProductItem key={item.id} prmProduct={item}/>
+            ))}
+          </li>
+          
+        </ul>
+        
+      </body>  
     </>
   );
 

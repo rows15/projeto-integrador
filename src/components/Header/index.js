@@ -2,7 +2,7 @@
 import React, {useEffect,  useState } from 'react'
 import { Nav, NavDropdown, Container, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import CartIcon from "./CartIcon";
+import CartIcon from "../../components/Header/CartIcon";
 import CategoryItem from "../CategoryItem"
 import logodeuno from '../../assets/logodeuno.png';
 import api from '../../services/api';
