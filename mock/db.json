@@ -87,6 +87,20 @@
       "category_id": 5,
       "description": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, salada e batata.",
       "image": "https://m.media-amazon.com/images/I/51b0fG74oYL._AC_SX522_.jpg"
+    },
+    {
+      "body": "{\"title\":\"sd\",\"price\":\"asd\",\"category_id\":\"5\",\"description\":\"sdad\",\"image\":\"dsds\"}",
+      "headers": {
+        "Content-type": "application/json; charset=UTF-8"
+      },
+      "id": 12
+    },
+    {
+      "body": "{\"title\":\"Rola\",\"price\":\"RolaRolaRola\",\"category_id\":\"3\",\"description\":\"RolaRolaRolaRola\",\"image\":\"Rola\"}",
+      "headers": {
+        "Content-type": "application/json; charset=UTF-8"
+      },
+      "id": 13
     }
   ],
   "categories": [
@@ -224,7 +238,7 @@
       "image": "https://m.media-amazon.com/images/I/31nt4iiUdlL._AC_UL480_FMwebp_QL65_.jpg"
     },
     {
-      "id":3,
+      "id": 3,
       "title": "Pc Gamer B",
       "price": 10.5,
       "category_id": 1,
@@ -232,7 +246,7 @@
       "image": "https://m.media-amazon.com/images/I/31nt4iiUdlL._AC_UL480_FMwebp_QL65_.jpg"
     },
     {
-      "id":4,
+      "id": 4,
       "title": "Pc Gamer C",
       "price": 10.5,
       "category_id": 1,
