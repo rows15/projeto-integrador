@@ -8,6 +8,7 @@ import ProductsCategory from '../pages/ProductsCategory'
 import Adm from '../pages/Adm';
 import Footer from '../components/Footer';
 import NotFound from '../pages/NotFound';
+import Cart from "../pages/Cart";
 
 
 
@@ -22,6 +23,7 @@ const Paginas = () => {
         <Route path="/detalhes/:id" element={<Details />} />
         <Route path="/categorias/:id" element={<ProductsCategory />} />
         <Route path="/administracao" element={<Adm />} />
+        <Route path="/carrinho" element={<Cart />}/>
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

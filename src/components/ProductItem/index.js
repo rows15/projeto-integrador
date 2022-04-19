@@ -6,6 +6,7 @@ export default function ProductItem({ prmProduct }) {
 
        
             <Link to={`/detalhes/${prmProduct.id}`}style={{textDecoration:"none"}}>
+                
                 <ul style={{margin:"30px", padding:"10px",alignItems:"center" }}>
                     <li style={{listStyle: "none", border: "1px #666",borderRadius:"10px", margin:"30px",width: 450, height:400,alignItems: "center",background: "white",boxShadow: "5px 5px 5px #D3D3D3" }}>
                         <img  style={{ width: 200, height:150,margin: "50px 120px"}} src={prmProduct.image} />
