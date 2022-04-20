@@ -47,54 +47,6 @@ const Carrossel = () => {
     }
   }
 
-  // const data = [
-  //   {
-  //     id: 1,
-  //     imageUrl: "https://s3.static.brasilescola.uol.com.br/be/2020/12/partes-da-flor.jpg",
-  //     title: "Flor"
-  //   },
-  //   {
-  //     id: 2,
-  //     imageUrl: "https://s3.static.brasilescola.uol.com.br/be/2020/12/partes-da-flor.jpg",
-  //     title: "Flor 2"
-  //   },
-  //   {
-  //     id: 3,
-  //     imageUrl: "https://s3.static.brasilescola.uol.com.br/be/2020/12/partes-da-flor.jpg",
-  //     title: "Flor 3"
-  //   },
-  //   {
-  //     id: 4,
-  //     imageUrl: "https://s3.static.brasilescola.uol.com.br/be/2020/12/partes-da-flor.jpg",
-  //     title: "Flor 4"
-  //   },
-  //   {
-  //     id: 5,
-  //     imageUrl: "https://s3.static.brasilescola.uol.com.br/be/2020/12/partes-da-flor.jpg",
-  //     title: "Flor 5"
-  //   },
-  //   {
-  //     id: 6,
-  //     imageUrl: "https://s3.static.brasilescola.uol.com.br/be/2020/12/partes-da-flor.jpg",
-  //     title: "Flor 6"
-  //   },
-  //   {
-  //     id: 7,
-  //     imageUrl: "https://s3.static.brasilescola.uol.com.br/be/2020/12/partes-da-flor.jpg",
-  //     title: "Flor 7"
-  //   },
-  //   {
-  //     id: 8,
-  //     imageUrl: "https://s3.static.brasilescola.uol.com.br/be/2020/12/partes-da-flor.jpg",
-  //     title: "Flor 8"
-  //   },
-  //   {
-  //     id: 9,
-  //     imageUrl: "https://s3.static.brasilescola.uol.com.br/be/2020/12/partes-da-flor.jpg",
-  //     title: "Flor 9"
-  //   }
-  // ];
-
   const navigate = useNavigate();
 
   return (
