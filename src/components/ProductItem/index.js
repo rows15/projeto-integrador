@@ -27,7 +27,7 @@ export default function ProductItem({ prmProduct }) {
                 <button onClick={() => addProducToCart(prmProduct)} style={{ display: "inline-block", background: "#003f69", border: "none", color: "white", padding: "10px 32px", textAlign: "center", fontSize: "16px", margin: "0px 155px", borderRadius: "10px",boxShadow: "5px 5px 5px grey"}}>
                     Adicionar
                 </button>
-                <input value={ productsCart.find(p => p.id === prmProduct.id).qtd * prmProduct.price } />
+                <input value={ (productsCart.find(p => p.id === prmProduct.id)?.qtd | 0) * prmProduct.price } />
                 <button  onClick={() => removeProductToCart(prmProduct.id)} style={
                     (productsCart.map(s=>s.id).includes(prmProduct.id)) ?
                         { display: "inline-block", background: "#003f69", border: "none", color: "white", padding: "10px 32px", textAlign: "center", fontSize: "16px", margin: "0px 155px", borderRadius: "10px",boxShadow: "5px 5px 5px grey"}
