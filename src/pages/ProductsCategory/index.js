@@ -28,10 +28,10 @@ export default function ProductsCategory() {
   }
   return (
     <>
-      <body>
-      <h1>Produtos da categoria</h1>
-      <ul style={{ listStyle: "none" }}>
-        <li>
+      <body style={{textDecoration:"none",background:"#e5e5e5",padding: "0 20px"  }}>
+      <h1 style={{ fontSize: "50px", color:"black"  }}>Produtos da categoria</h1>
+      <ul style={{display: "flex",alignItems: "center"}}>
+        <li style={{display: "flex",flexWrap: "wrap",justifyContent: "center"}}>
         {product.map((item) => (
           <ProductItem key={item.id} prmProduct={item} />
         ))}

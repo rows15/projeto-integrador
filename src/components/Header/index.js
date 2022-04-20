@@ -49,9 +49,9 @@ export default function Header  ()  {
                             </Nav.Link>
                             <NavDropdown title="Categorias" className="basic-nav-dropdown">
                                 <NavDropdown.Item as={Link} to={"/categoria/"}>
-                                    <ul>
+                                    <ul style={{listStyle: "none",padding:"1px"}}>
                                         {categories.map((item) => (
-                                            <li style={{listStyle: "none"}}>
+                                            <li style={{listStyle: "none",padding:"1px"}}>
                                                < CategoryItem key={item.id} prmCategory={item}/> 
                                             </li>
                                         ))}
