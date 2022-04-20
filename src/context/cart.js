@@ -6,7 +6,7 @@ export default function CartProvider({ children }) {
   const [productsCart, setProductsCart] = useState([]);
 
   function addProducToCart(product) {
-    console.log('product.id', product.id);
+    
     let id = product.id;
     const copyProductsCart = [...productsCart];
 
