@@ -51,79 +51,96 @@ const Administration = () => {
 
 
 
-    const [id,setId] = useState("")
+    const [id,setId] = useState(null)
     const [title,setTitle] = useState("")
-    const [price,setPrice] = useState("")
-    const [categoryId,setCategoryId] = useState("")
+    const [price,setPrice] = useState(null)
+    const [categoryId,setCategoryId] = useState(null)
     const [description,setDescription] = useState("")
     const [image,setImage] = useState("")
+
+    const [idDelete,setIdDelete] = useState(null)
 
 
 
     //CadastrarProduto
-
-
     async function saveProduct(body) {
-        try {
-            await api.post("/products", {
-              body: JSON.stringify(body),
-              headers: { "Content-type": "application/json; charset=UTF-8" }
-            });
-            alert("Produto cadastrado com sucesso");
-            
-          } catch (error) {
-            alert("Erro no cadastro do Produto");
-          }
+      try {
+          await api.post("/products", body);
+          alert("Produto cadastrado com sucesso");
+          
+        } catch (error) {
+          alert("Erro no cadastro do Produto");
+        }
+  }
+
+  async function newProduct(event) {
+      event.preventDefault();
+      if (!title || !categoryId || !price) {
+        alert("Favor preencher todos os campos");
+      } else {
+        const body = {
+          title: title,
+          price: price,
+          categories: [{id: categoryId}],
+          description: description,
+          image: image,
+        };
+        saveProduct(body);
+      }
     }
 
-    async function newProduct(event) {
-        event.preventDefault();
-        if (!title || !categoryId || !price) {
-          alert("Favor preencher todos os campos");
-        } else {
-          const body = {
-            "title": title,
-            "price": price,
-            "category_id": categoryId,
-            "description": description,
-            "image": image,
-          };
-          saveProduct(body);
+
+    //EditarProduto
+    async function updateProduct(body) {
+      try {
+          await api.put(`/products/${id}`, body);
+          alert("Produto Atualizado");
+        } catch (error) {
+          alert("Erro ao atualizar");
         }
-      }
-
-
-      //EditarProduto
-
-      async function updateProduct(body) {
-        try {
-            await api.put(`/products/${id}`, {
-              body: JSON.stringify(body),
-              headers: { "Content-type": "application/json; charset=UTF-8" }
-            });
-            alert("Produto Atualizado");
-          } catch (error) {
-            alert("Erro ao atualizar");
-          }
     }
 
-      async function editProduct(event) {
-        event.preventDefault();
-        if (!title || !categoryId || !price) {
-          alert("Favor preencher todos os campos");
-        } else {
-          const body = {
-            "id": id,
-            "title": title,
-            "price": price,
-            "category_id": categoryId,
-            "description": description,
-            "image": image,
-            
-          };
-          updateProduct(body);
-        }
+    async function editProduct(event) {
+      event.preventDefault();
+      if (!title || !categoryId || !price) {
+        alert("Favor preencher todos os campos");
+      } else {
+        const body = {
+          title: title,
+          price: price,
+          categories: [{id: categoryId}],
+          description: description,
+          image: image,
+        };
+        
+        updateProduct(body);
       }
+    }
+
+
+
+
+      //Deletar Produtos
+
+      async function deleteProduct(event) {
+        event.preventDefault();
+        if (!idDelete){
+          alert("Favor preencher todos os campos");
+        }else{
+        try {
+            await api.delete(`/products/${idDelete}`);
+            alert("Produto Deletado");
+          } catch (error) {
+            alert("Erro ao Deletar");
+          }}
+      }
+  
+      
+          
+       
+
+
+
 
       //PegarListaCategorias
 
@@ -154,7 +171,7 @@ const Administration = () => {
         
         <div className="AdminContainer">
             <div className="AdminBody">
-                <form onSubmit={id?editProduct:newProduct}>
+                <form id='FormCadastroAlteracao' onSubmit={id?editProduct:newProduct}>
                     <h2>Cadastro/Edição de produtos</h2>
                     <div className="inputs">
                     <label>
@@ -218,7 +235,23 @@ const Administration = () => {
 
 
                 </form>
+                <form onSubmit={deleteProduct}>
+                <label>
+                        <span>Id para Deletar</span>
+                        <input
+                            value={idDelete}
+                            onChange={(event) => setIdDelete(event.target.value)}
+                        />
+                        </label>
+                        <div className="container-buttons">
+                                <button type="submit">{"Deletar"}</button>
+                                
+                            </div>
 
+
+
+
+                </form>
 
 
 
