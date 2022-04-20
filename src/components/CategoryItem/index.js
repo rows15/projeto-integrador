@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 export default function CategoryItem({ prmCategory }) {
     return (
-        <Link to={`/categorias/${prmCategory.id}`}style={{ textDecoration: "none"}}>
-             <ul style={{margin:"1px",width: 250, padding:"1px",border:"1px"}}>
+        <Link to={`/categorias/${prmCategory.id}`}className="LinkCategoryItem"style={{ textDecoration: "none"}}>
+             <ul className="UlCategoryItem"style={{margin:"1px",width: 250, padding:"1px",border:"1px"}}>
             {console.log(prmCategory.id)}
-            <li style={{ listStyle: "none", margin: "1px", width: "100%", height: 30, }}>    
-                <h2 style={{color:"black"}}>{prmCategory.name}</h2>
+            <li className="LiCategoryItem"style={{ listStyle: "none", margin: "1px", width: "100%", height: 30, }}>    
+                <h2 className="h2CategoryItem"style={{color:"black"}}>{prmCategory.name}</h2>
                 </li>
                 </ul>
         </Link>

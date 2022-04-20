@@ -223,7 +223,7 @@ const Administration = () => {
                             </select>
                             </label>
                             <div className="container-buttons">
-                                <button type="submit">{!id ? "Salvar" : "Alterar"}</button>
+                                <button className="botao-rows" type="submit">{!id ? "Salvar" : "Alterar"}</button>
                                 
                             </div>
                         </div>
@@ -244,7 +244,7 @@ const Administration = () => {
                         />
                         </label>
                         <div className="container-buttons">
-                                <button type="submit">{"Deletar"}</button>
+                                <button className="botao-rows" type="submit">{"Deletar"} </button>
                                 
                             </div>
 
@@ -287,7 +287,7 @@ const Administration = () => {
         <input id="login" type="text" placeholder="Enter Username" name="uname" onChange={getLogin} required/>
         <input id="password" type="password" placeholder="Enter Password" name="psw" onChange={getPassword} required/>
         
-        <button onClick={handleClick}>  Login</button>
+        <button className="botao-rows" onClick={handleClick}>  Login</button>
         </>
         
     }
