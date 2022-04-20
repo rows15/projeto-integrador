@@ -60,6 +60,18 @@ button {
     padding-top: 16px;
   }
   
+  h2 {
+    text-align: center !important;
+  }
+  
+  .inputs {
+    text-align: center !important;
+    justify-items: center !important;
+    flex-direction: column !important;
+    font-size: 20px !important;
+  }
+
+
   /* The Modal (background) */
   .modal {
     display: none; /* Hidden by default */

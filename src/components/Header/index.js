@@ -2,7 +2,7 @@
 import React, {useEffect,  useState } from 'react'
 import { Nav, NavDropdown, Container, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import CartIcon from "./CartIcon";
+import CartIcon from "../../components/Header/CartIcon";
 import CategoryItem from "../CategoryItem"
 import logodeuno from '../../assets/logodeuno.png';
 import api from '../../services/api';
@@ -49,9 +49,9 @@ export default function Header  ()  {
                             </Nav.Link>
                             <NavDropdown title="Categorias" className="basic-nav-dropdown">
                                 <NavDropdown.Item as={Link} to={"/categoria/"}>
-                                    <ul>
+                                    <ul style={{listStyle: "none",padding:"1px"}}>
                                         {categories.map((item) => (
-                                            <li style={{listStyle: "none"}}>
+                                            <li style={{listStyle: "none",padding:"1px"}}>
                                                < CategoryItem key={item.id} prmCategory={item}/> 
                                             </li>
                                         ))}
@@ -64,7 +64,7 @@ export default function Header  ()  {
                             <Nav.Link as={Link} to={"/administracao"}>
                                 Administração
                             </Nav.Link>
-                            <Nav.Link className="car" as={Link} to={"/carrinho"}>
+                            <Nav.Link className="car" as={Link} to={"/cart"}>
                                 <CartIcon />
                             </Nav.Link>
                         </Nav>
