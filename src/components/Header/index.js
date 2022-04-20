@@ -64,7 +64,7 @@ export default function Header  ()  {
                             <Nav.Link as={Link} to={"/administracao"}>
                                 Administração
                             </Nav.Link>
-                            <Nav.Link className="car" as={Link} to={"/carrinho"}>
+                            <Nav.Link className="car" as={Link} to={"/cart"}>
                                 <CartIcon />
                             </Nav.Link>
                         </Nav>
