@@ -32,7 +32,7 @@ export default function Header  ()  {
 
     return (
         <section id="header">
-            <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> </meta>
+            
             <Navbar expand="lg">
                 <Container id="home">
                     <Navbar.Brand className="nav-brand">
