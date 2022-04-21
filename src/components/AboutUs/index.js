@@ -2,7 +2,7 @@ import './style.scss';
 import '../../App.scss'
 
 import Mateus    from "../../assets/aboutUs/Mateus.jpg";
-import Marcelo   from "../../assets/aboutUs/Marcelo.png";
+import Marcelo   from "../../assets/aboutUs/Marcelo.jpg";
 import Wesley  from "../../assets/aboutUs/Wesley.jpg";
 import Leticia  from "../../assets/aboutUs/Leticia.jpg";
 import Francieli    from "../../assets/aboutUs/Francieli.jpg";
@@ -49,7 +49,7 @@ const AboutUs = () => {
                             <div className=" retangle">
                                 <div className="col-lg-6 col-xm-12 aboutme">
                                     <h4 className="profile-name">Marcelo</h4>
-                                    <h5 className="profile-social"><a href=" https://www.linkedin.com/in/mateus-benites-dias/" target="_blank" rel="noopener noreferrer">LinkedIn</a></h5>
+                                    <h5 className="profile-social"><a href="https://www.linkedin.com/in/marcelo-ramos-a35868121/" target="_blank" rel="noopener noreferrer">LinkedIn</a></h5>
                                     <h5 className="profile-social"><a href="https://github.com/rows15" target="_blank" rel="noopener noreferrer">GitHub</a></h5>
                                 </div>
                             </div>
